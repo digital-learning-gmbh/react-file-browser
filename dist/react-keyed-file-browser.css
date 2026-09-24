@@ -52,8 +52,9 @@ div.rendered-react-keyed-file-browser div.files table th, div.rendered-react-key
 div.rendered-react-keyed-file-browser div.files table th {
   font-weight: bold;
 }
-div.rendered-react-keyed-file-browser div.files table th.size, div.rendered-react-keyed-file-browser div.files table th.modified, div.rendered-react-keyed-file-browser div.files table td.size, div.rendered-react-keyed-file-browser div.files table td.modified {
+div.rendered-react-keyed-file-browser div.files table th.size, div.rendered-react-keyed-file-browser div.files table th.modified, div.rendered-react-keyed-file-browser div.files table th.createdAt, div.rendered-react-keyed-file-browser div.files table td.size, div.rendered-react-keyed-file-browser div.files table td.modified, div.rendered-react-keyed-file-browser div.files table td.createdAt {
   text-align: right;
+  width: 120px;
 }
 div.rendered-react-keyed-file-browser div.files table th.name i, div.rendered-react-keyed-file-browser div.files table td.name i {
   padding-right: 0.5rem;

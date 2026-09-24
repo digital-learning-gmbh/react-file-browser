@@ -1,5 +1,5 @@
 import i18n from "i18next";
-import { reactI18nextModule } from "react-i18next";
+import { initReactI18next } from "react-i18next";
 import de from "./i18n/de.json";
 import en from "./i18n/en.json";
 import no_NB from "./i18n/no_NB.json";
@@ -21,7 +21,7 @@ const resources = {
 };
 
 i18n
-  .use(reactI18nextModule) // passes i18n down to react-i18next
+  .use(initReactI18next) // passes i18n down to react-i18next
   .init({
     resources,
     lng: "en",
